@@ -1,0 +1,134 @@
+body{
+    padding: 10%;
+    margin:auto;
+    padding-top: 0;
+}
+
+.navbar{
+    display: flex;
+}
+.logo{
+    margin-right: auto;
+}
+.options{
+    float: right;
+}
+.options ul li{
+    list-style: none;
+    float: right; 
+    padding: 15px; 
+    font-size: 21px;  
+    font-weight: 500;   
+}
+.main-container{
+    display: flex;
+    /* border: 2px solid green; */
+}
+.heading{
+    display: inline;
+    
+}
+.quotes{
+    display: flex;
+
+}
+.quotes h3{
+    display: inline-block;
+    width: 30vw;
+    margin-bottom: 30vh;
+    padding-right: 0;
+    /* margin-right: 30px; */
+    font-size: 40px;
+    /* border: 2px solid red; */
+}
+.quotes h3 span{
+    display: block;
+}
+
+.info{
+    /* border: 2px solid grey ; */
+    display: flex;
+    margin: 70px 20px;
+    padding-left: 17%;   
+}
+.info p{
+    font-size: 25px;
+    
+}
+
+.content{
+    /* width: 40vw; */
+    /* border: 2px solid green; */
+    margin-right: 20vw;
+}
+.project1{
+    display: flex;
+    
+}
+
+.project-name p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.objective{
+    margin-top: 40px;
+}
+.objective p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.discription p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #606060;
+}
+.discription{
+    margin-top: 55px;
+}
+.photos{
+    float: right;
+}
+.photos img{
+    width: 40vw;
+    height: 25vw;
+    float: right;
+}
+.more-info{
+    margin-top: 60%;
+}
+.more-info a{
+    top: 60px;
+    font-size: 18px;
+    font-weight: 500W;
+    color: #181717;
+}
+
+hr{
+    margin: 80px 0;
+}
+footer{
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+}
+.name{
+    margin-right: auto;
+}
+.name p{
+    color: #2429AF;
+    font-size: 21px;
+    font-weight: 500;
+}
+.social-media {
+    float: right;
+}
+.social-media ul li{
+    float: left;
+    list-style: none;
+    margin: auto 20px;
+    font-size: 21px;
+    font-weight: 500;
+}
+.social-media ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
